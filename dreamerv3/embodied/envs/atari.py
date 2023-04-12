@@ -24,7 +24,7 @@ class Atari(embodied.Env):
     if self._resize == 'pillow':
       from PIL import Image
       self._image = Image
-    import gym.envs.atari
+    import gymnasium.envs.atari
     if name == 'james_bond':
       name = 'jamesbond'
     self._repeat = repeat
